@@ -6,9 +6,11 @@ int main(){
     cout << "Enter the value of n: ";
     cin >> n;
 
-    for(int j = 0; j <= n; j++){
-    for (int i = 1; i <= n; i++){
-       cout << i << " ";
+    for(int j = 0; j < n; j++){
+        char ch = 'A';
+    for (int i = 0; i < n; i++){
+       cout << ch;
+       ch++;
         }
         cout << endl;
     }

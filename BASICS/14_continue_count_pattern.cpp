@@ -5,10 +5,11 @@ int main(){
     int n;
     cout << "Enter the value of n: ";
     cin >> n;
-
-    for(int j = 0; j <= n; j++){
-    for (int i = 1; i <= n; i++){
-       cout << i << " ";
+    int num = 1;
+    for(int j = 0; j < n; j++){
+    for (int i = 0; i < n; i++){
+       cout << num << " ";
+       num++;
         }
         cout << endl;
     }
